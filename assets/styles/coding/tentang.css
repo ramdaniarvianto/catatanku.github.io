@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Lebar scroll bar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+/* Warna Background Track Scroll */
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+/* Warna Scroll */
+::-webkit-scrollbar-thumb {
+    background-color: #FFF;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: #1B1B1B;
+}
+
+/* Header */
+
+header {
+    padding: 15px 30px;
+    background-color: #1B1B1B;
+    border-bottom: 1.4px solid #3C4043;
+}
+
+header .header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-wrap .head-logo {
+    display: flex;
+    align-items: center;
+}
+
+header .header-wrap .head-logo p {
+    cursor: default;
+    font-family: 'Dela Gothic One';
+    font-weight: lighter;
+    font-size: 20px;
+    color: #DDD;
+}
+header .header-wrap .head-logo p:hover {
+    color: #FFF;
+}
+
+header .header-wrap .head-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .header-wrap .head-menu li a.active {
+    color: #FFF;
+    background-image: linear-gradient(to bottom right, #57A5FF, #3059FF, #00AAFF);
+}
+header .header-wrap .head-menu li a.active:hover {
+    background-image: linear-gradient(to bottom right, #57A5FF, #3059FF, #00AAFF);
+}
+header .header-wrap .head-menu li a {
+    padding: 10px;
+    color: #AAA;
+    border-radius: 2.5px;
+}
+header .header-wrap .head-menu li a:hover {
+    color: #FFF;
+    background-image: linear-gradient(to bottom right, #5C5C5C, #3C3C3C, #5C5C5C);
+}
+header .header-wrap .head-menu li a:active {
+    color: #FFF;
+    background-image: linear-gradient(to bottom right, #57A5FF, #3059FF, #00AAFF);
+}
+
+/* Nav */
+
+nav {
+    cursor: default;
+    padding: 15px 8px;
+    background-color: rgba(35, 35, 35, 0.5);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+}
+
+nav .nav-wrap {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+    padding-left: 20px;
+}
+
+nav .nav-wrap p {
+    font-size: 18px;
+    color: #DDD;
+}
+nav .nav-wrap p:hover {
+    color: #FFF;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main article {
+    width: 70%;
+}
+
+main article .profile {
+    padding: 20px 25px;
+}
+
+main article .profile-picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main article .profile .profile-picture .profile-foto a img {
+    width: 180px;
+    border-radius: 100%;
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+main article .profile .profile-picture .profile-foto a img:hover {
+    opacity: 0.8;
+}
+
+main article .profile .profile-picture .profile-name {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main article .profile .profile-picture .profile-name .name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+main article .profile .profile-picture .profile-name .name h2 {
+    color: #FFF;
+}
+main article .profile .profile-picture .profile-name .name i {
+    color: #3059FF;
+}
+main article .profile .profile-picture .profile-name h4 {
+    margin-top: 10px;
+    font-weight: 100;
+    color: #AAA;
+}
+main article .profile .profile-picture .profile-name a {
+    padding: 2px 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 100;
+    color: #FFF;
+    background-color: #777;
+    border-radius: 20px;
+}
+main article .profile .profile-picture .profile-name a:hover {
+    color: #DDD;
+    background-color: #555;
+}
+
+main article .content {
+    padding: 20px 25px;
+    margin-top: 50px;
+}
+
+main article .content h1 {
+    cursor: default;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: 100;
+    color: #FFF;
+}
+
+main article .content p {
+    color: #AAA;
+    line-height: 1.6;
+    padding: 5px 0;
+}
+
+main section {
+    width: 70%;
+    margin-top: 20px;
+}
+
+main section .section {
+    padding: 20px 25px;
+}
+
+main section i {
+    margin-right: 5px;
+    color: #FFF;
+}
+
+main section h2 {
+    cursor: default;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    color: #FFF;
+}
+
+main section .skills {
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main section .skills .skills-wrap {
+    background-color: #28292C;
+    border-radius: 5.5px;
+}
+
+main section .skills .skills-wrap .skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #FFF;
+}
+
+.html, .css, .js {
+    border-radius: 5.5px 15px 15px 5.5px;
+}
+
+.html {
+    width: 90%;
+    background-color: #3C4043;
+}
+.html:hover {
+    width: 90%;
+    background-color: #A27211;
+}
+.css {
+    width: 70%;
+    background-color: #3C4043;
+}
+.css:hover {
+    width: 70%;
+    background-color: #1A72B5;
+}
+.js {
+    width: 20%;
+    background-color: #3C4043;
+}
+.js:hover {
+    width: 20%;
+    background-color: #B8B211;
+}
+
+/* Footer */
+
+footer {
+    padding: 20px;
+    background-color: rgba(35, 35, 35, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+footer .footer-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer .footer-wrap .footer-logo p {
+    cursor: default;
+    font-family: 'Dela Gothic One';
+    font-weight: lighter;
+    font-size: 20px;
+    color: #DDD;
+}
+footer .footer-wrap .footer-logo p:hover {
+    color: #FFF;
+}
+
+footer .footer-wrap .footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+footer .footer-wrap .footer-links a {
+    color: #AAA;
+}
+footer .footer-wrap .footer-links a:hover {
+    color: #FFF;
+}

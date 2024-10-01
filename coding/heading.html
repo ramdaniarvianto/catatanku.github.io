@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Belajar Coding HTML, CSS, dan JavaScript">
+    <meta name="keywords" content="HTML, CSS, dan JavaScript">
+    <meta name="author" content="Ramdani Arvianto">
+    <link rel="shortcut icon" href="assets/images/favicon-ramdani.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon-ramdani.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=DM+Sans|Sofia|Montserrat|Poppins|Prompt|Space+Grotesk|Syne|Work+Sans|Bebas+Neue|Questrial|Didact+Gothic|Great+Vibes|Unbounded|Ultra|Six+Caps|Days+One|Krona+One|Dela+Gothic+One|Michroma|Monsieur+La+Doulaise|Montserrat+Subrayada|Gravitas+One|Goblin+One|Syne+Mono|Notable|Libre+Barcode+39+Text|Climate+Crisis|Sora">
+    <script src="https://kit.fontawesome.com/98721b54aa.js" crossorigin="anonymous"></script>
+    <title>Coding: HTML - Heading</title>
+    <link rel="stylesheet" href="/assets/styles/coding/heading.css">
+</head>
+<body>
+    <header>
+        <div class="header-wrap">
+            <div class="head-logo">
+                <p>RamdaniArvianto</p>
+            </div>
+            <div class="head-menu">
+                <li><a href="coding.html" class="active">Coding</a></li>
+                <li><a href="#">Office</a></li>
+                <li><a href="#">Bahasa</a></li>
+                <li><a href="#">Kuliah</a></li>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-wrap">
+            <li><a href="coding.html" class="active">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+        </div>
+    </nav>
+
+    <main>
+        <article>
+            <div class="content">
+                <h1>Heading</h1>
+                <p>Heading adalah sebuah judul yang biasanya diberikan pada halaman atau beberapa bagian dari artikel. Terdapat 6 macam Heading dari <span class="content-code">&lt;h1&gt;</span> sampai dengan <span class="content-code">&lt;h6&gt;</span>. Semakin tinggi angkanya, semakin kecil ukuran Headingnya. Penulisan heading yang bagus adalah heading yang mengikuti levelnya. Jika ingin membuat sebuah headline atau judul pada halaman artikel bisa menggunakan tag <span class="content-code">&lt;h1&gt;</span>. <a href="https://www.makewebeasy.com/id/blog/apa-itu-heading-tag/#:~:text=H1%20adalah%20Tag%20yang%20memberi,digunakan%20satu%20dalan%20satu%20halaman." target="_blank" title="Dikutip dari makewebeasy.com">&lt;h1&gt;</a> adalah tag yang memberi tahu Google tentang konten halaman tersebut, apa yang ada di dalamnya. Hal ini adalah faktor penting yang membantu dalam hal SEO. Tag <span class="content-code">&lt;h1&gt;</span> <em>hanya boleh digunakan satu dalam satu halaman.</em></p>
+            </div>
+
+            <div class="content">
+                <h2>Bagaimana Bila Terdapat Multiple Tags &lt;h1&gt; Dalam Satu Halaman?</h2>
+                <p>Dikutip dari <a href="https://cmlabs.co/id-id/seo-guidelines/multiple-h1-tags" target="_blank" title="Dikutip dari cmlabs.co">cmlabs.co</a>, menurut John Mueller dari Google menyatakan bahwa menggunakan multiple tags <span class="content-code">&lt;h1&gt;</span> dalam satu halaman merupakan hal yang baik-baik saja. Secara teknis tidak ada yang salah dengan menggunakan beberapa tag <span class="content-code">&lt;h1&gt;</span> di bagian yang berbeda. Namun, pada dasarnya setiap halaman hanya membutuhkan satu tag <span class="content-code">&lt;h1&gt;</span>. Meskipun penggunaan multiple tags <span class="content-code">&lt;h1&gt;</span> diklaim tidak memberikan dampak apapun, hal ini tetap dapat berpotensi untuk melemahkan kekuatan SEO dari <span class="content-code">&lt;h1&gt;</span> itu sendiri.</p>
+
+                <br><p>Jika menggunakan lebih dari satu <span class="content-code">&lt;h1&gt;</span>, hal ini akan membuat mesin pencari cukup kebingungan dalam menentukan manakah <span class="content-code">&lt;h1&gt;</span> yang harus diprioritaskan. Pada proses <a href="https://cmlabs.co/id-id/seo-guidelines/panduan-crawling" target="_blank" title="Dikutip dari cmlabs.co">crawling</a> multiple tags <span class="content-code">&lt;h1&gt;</span>, mesin pencari akan merayapi beberapa <span class="content-code">&lt;h1&gt;</span> pada satu halaman. Akan tetapi, prioritas logika dari <span class="content-code">&lt;h1&gt;</span> adalah memfokuskan strategi SEO pada satu frasa atau kata kunci, bukan banyak.</p>
+
+                <br><p>Google juga berpotensi menganggap website tersebut dioptimasi berlebihan jika menggunakan lebih dari satu tag <span class="content-code">&lt;h1&gt;</span>. Terburuknya adalah website bisa saja terkena penalti dari Google.</p>
+            </div>
+
+            <div class="content">
+                <h2>Penulisan Code</h2>
+                <div class="content-full-code">
+                    <div class="head-code">
+                        <h4>Heading HTML</h4>
+                        <button><i class="fa-regular fa-copy"></i> Copy</button>
+                    </div>
+                    <div class="full-code">
+<pre>&lt;<span class="tag">!DOCTYPE</span> <span class="atribut">html</span>&gt;
+&lt;<span class="tag">html</span>&gt;
+    &lt;<span class="tag">head</span>&gt;
+        &lt;<span class="tag">title</span>&gt;<span class="isi">Heading</span>&lt;/<span class="tag">title</span>&gt;
+    &lt;/<span class="tag">head</span>&gt;
+    &lt;<span class="tag">body</span>&gt;
+        &lt;<span class="tag">h1</span>&gt;<span class="isi">Heading 1</span>&lt;/<span class="tag">h1</span>&gt;
+        &lt;<span class="tag">h2</span>&gt;<span class="isi">Heading 2</span>&lt;/<span class="tag">h2</span>&gt;
+        &lt;<span class="tag">h3</span>&gt;<span class="isi">Heading 3</span>&lt;/<span class="tag">h3</span>&gt;
+        &lt;<span class="tag">h4</span>&gt;<span class="isi">Heading 4</span>&lt;/<span class="tag">h4</span>&gt;
+        &lt;<span class="tag">h5</span>&gt;<span class="isi">Heading 5</span>&lt;/<span class="tag">h5</span>&gt;
+        &lt;<span class="tag">h6</span>&gt;<span class="isi">Heading 6</span>&lt;/<span class="tag">h6</span>&gt;
+    &lt;/<span class="tag">body</span>&gt;
+&lt;/<span class="tag">html</span>&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <h2>Hasil Code</h2>
+                <div class="content-hasil-code">
+                    <img src="/assets/images/coding_heading.png" alt="Hasil Code Heading" title="Hasil Code Heading">
+                </div>
+            </div>
+        </article>
+
+        <section>
+            <div class="section referensi">
+                <h2>ReferensiKu</h2>
+                <li><a href="https://www.w3schools.com/" target="_blank"><i class="fa-solid fa-link"></i> https://www.w3schools.com/</a></li>
+                <li><a href="https://www.petanikode.com/" target="_blank"><i class="fa-solid fa-link"></i> https://www.petanikode.com/</a></li>
+                <li><a href="https://www.malasngoding.com/" target="_blank"><i class="fa-solid fa-link"></i> https://www.malasngoding.com/</a></li>
+                <li><a href="https://www.youtube.com/@sandhikagalihWPU" target="_blank"><i class="fa-solid fa-link"></i> https://www.youtube.com/@sandhikagalihWPU</a></li>
+            </div>
+
+            <div class="section catatanku">
+                <h2>CatatanKu</h2>
+                <li><a href="coding.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Pengenalan HTML</a></li>
+                <li><a href="heading.html" class="aktif"><i class="fa-solid fa-book-open"></i> Catatan HTML - Heading</a></li>
+                <li><a href="paragraf.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Paragraf</a></li>
+                <li><a href="formatting.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Text Formatting</a></li>
+                <li><a href="komentar.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Komentar</a></li>
+                <li><a href="hyperlink.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Hyperlink</a></li>
+                <li><a href="image.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Image</a></li>
+                <li><a href="list.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - List</a></li>
+                <li><a href="table.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Table</a></li>
+                <li><a href="form.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Form</a></li>
+                <li><a href="audio.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Audio</a></li>
+                <li><a href="video.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Video</a></li>
+                <li><a href="iframe.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - iFrame</a></li>
+                <li><a href="blockinline.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Block dan Inline</a></li>
+                <li><a href="div.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Div</a></li>
+                <li><a href="class.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Class</a></li>
+                <li><a href="id.html"><i class="fa-solid fa-book-open"></i> Catatan HTML - Id</a></li>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-wrap">
+            <div class="footer-logo">
+                <p>RamdaniArvianto</p>
+            </div>
+            <div class="footer-links">
+                <a href="/tentang.html"><i class="fa-solid fa-person-rifle"></i> TentangKu</a>
+                <a href="https://www.linkedin.com/in/ramdaniarvianto/" target="_blank"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                <a href="https://www.instagram.com/ramdanlarvianto/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                <a href="https://youtube.com/@ramdaniarvianto?si=4gxTHmSt90PBY52g" target="_blank"><i class="fa-brands fa-youtube"></i> YouTube</a>
+                <a href="https://www.tiktok.com/@ramdaniarvianto" target="_blank"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

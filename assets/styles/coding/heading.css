@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: #1B1B1B;
+}
+
+/* Header */
+
+header {
+    padding: 15px 30px;
+    background-color: #1B1B1B;
+    border-bottom: 1.4px solid #3C4043;
+}
+
+header .header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-wrap .head-logo {
+    display: flex;
+    align-items: center;
+}
+
+header .header-wrap .head-logo p {
+    cursor: default;
+    font-family: 'Dela Gothic One';
+    font-weight: lighter;
+    font-size: 20px;
+    color: #DDD;
+}
+header .header-wrap .head-logo p:hover {
+    color: #FFF;
+}
+
+header .header-wrap .head-menu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .header-wrap .head-menu li a.active {
+    color: #FFF;
+    background-image: linear-gradient(to bottom right, #57A5FF, #3059FF, #00AAFF);
+}
+header .header-wrap .head-menu li a {
+    padding: 10px;
+    color: #AAA;
+    border-radius: 2.5px;
+}
+header .header-wrap .head-menu li a:hover {
+    color: #FFF;
+    background-image: linear-gradient(to bottom right, #57A5FF, #3059FF, #00AAFF);
+}
+
+/* Nav */
+
+nav {
+    padding: 15px 8px;
+    background-color: rgba(35, 35, 35, 0.5);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+}
+
+nav .nav-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+nav .nav-wrap li a.active {
+    color: #FFF;
+    background-image: linear-gradient(to bottom right, #5C5C5C, #3C3C3C, #5C5C5C);
+}
+
+nav .nav-wrap li a {
+    padding: 5px 12.5px;
+    color: #AAA;
+    background-color: #3C3C3C;
+    border-radius: 5px;
+}
+nav .nav-wrap li a:hover {
+    color: #FFF;
+    background-image: linear-gradient(to bottom right, #5C5C5C, #3C3C3C, #5C5C5C);
+}
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main article {
+    width: 70%;
+}
+
+main article .content {
+    padding: 20px 25px;
+}
+
+main article .content h1 {
+    cursor: default;
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #FFF;
+}
+
+main article .content h2 {
+    cursor: default;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    color: #FFF;
+}
+
+main article .content h4 {
+    cursor: default;
+    font-size: 17px;
+    font-family: 'Sora';
+    font-weight: lighter;
+    color: #DDD;
+}
+
+main article .content p {
+    color: #AAA;
+    line-height: 1.6;
+}
+
+main article .content a {
+    color: #57A5FF;
+    text-decoration: underline;
+}
+
+main article .content-code {
+    padding: 3px 5px;
+    font-family: 'Consolas';
+    color: #FFF;
+    background-color: #3C4043;
+    border-radius: 3px;
+}
+
+main article .content-full-code {
+    background-color: #000;
+    border-radius: 0 0 8px 8px;
+}
+main article .content-full-code .head-code {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    background-image: linear-gradient(to right, #2B5876, #4E4376);
+    border-radius: 8px 8px 0 0;
+}
+main article .content-full-code .head-code button {
+    cursor: pointer;
+    font-family: 'Sora';
+    color: #AAA;
+    background-color: transparent;
+    border: none;
+}
+main article .content-full-code .head-code button:hover {
+    color: #DDD;
+}
+main article .content-full-code .head-code button i {
+    margin-right: 2px;
+}
+main article .content-full-code .full-code pre {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-family: 'Consolas';
+    line-height: 1.5;
+    color: #AAA;
+}
+main article .tag {
+    color: #569CD6;
+}
+main article .atribut {
+    color: #9CDCFE;
+}
+main article .value {
+    color: #CE9178;
+}
+main article .isi {
+    color: #FFF;
+}
+
+main .content .content-hasil-code img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+main article .content-table table {
+    width: 100%;
+    background-color: #2B2B2B;
+    border-collapse: collapse;
+    border-radius: 8px 8px 0 0;
+}
+main article .content-table table thead tr th {
+    cursor: default;
+    padding: 7.5px 15px;
+    font-family: 'Sora';
+    font-weight: lighter;
+    font-size: 17px;
+    color: #DDD;
+    background-image: linear-gradient(to right, #000, #111, #222);
+}
+main article .content-table table tbody tr td {
+    padding: 7.5px 15px;
+    color: #AAA;
+}
+main article .content-table table tr:nth-child(even) {
+    background-color: #1B1B1B;
+}
+
+main section {
+    width: 70%;
+    margin-top: 20px;
+}
+
+main section .section {
+    padding: 20px 25px;
+}
+
+main section i {
+    margin-right: 5px;
+    color: #FFF;
+}
+
+main section h2 {
+    cursor: default;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    color: #FFF;
+}
+
+main section a.aktif {
+    color: #FFF;
+    background-color: #3C4043;
+}
+main section a {
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #AAA;
+    background-color: #28292C;
+    border-radius: 5px;
+}
+main section a:hover {
+    color: #FFF;
+    background-color: #3C4043;
+}
+
+/* Footer */
+
+footer {
+    padding: 20px;
+    background-color: rgba(35, 35, 35, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+footer .footer-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer .footer-wrap .footer-logo p {
+    cursor: default;
+    font-family: 'Dela Gothic One';
+    font-weight: lighter;
+    font-size: 20px;
+    color: #DDD;
+}
+footer .footer-wrap .footer-logo p:hover {
+    color: #FFF;
+}
+
+footer .footer-wrap .footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+footer .footer-wrap .footer-links a {
+    color: #AAA;
+}
+footer .footer-wrap .footer-links a:hover {
+    color: #FFF;
+}
